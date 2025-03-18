@@ -43,7 +43,7 @@ A rogue access point is a wireless access point that gives unauthorized access t
 - It is when a access point is installed on a network without owner knowledge or permission.
 - Passive interception: a rogue access point can read your data but not able to manipulate it
 - Active interception: a rogue access point can read and manipulate your data.
-- Prevention: Connect to trusted networks and only send information via websites with HTTPS (Hypertext Transfer Protocol Secure), to ensure data is encrypted
+- Prevention: Connect to trusted networks and only send information via websites with S (HypertHTTPext Transfer Protocol Secure), to ensure data is encrypted
 
 ## Malicious Links - IOC-2.C.5
 A malicious link can be disguised on a web page or in an email message. 
@@ -66,6 +66,9 @@ Untrustworthy (often free) downloads from freeware or shareware sites can contai
 - Freeware is software that is free to install. Shareware is software where you get a free trial and are asked to pay later.
 - Freeware and shareware aren't always malware, but a lot is
 - Prevention: Don't download software for free, especially if there is a popular paid version. If you have to, make sure it's from a trusted site that you know and can verify has no malware.
+
+## Real Life Example
+You connect to an unsecure free wifi at a coffee shop. You send private information on an unsecure http website (NOT https). What you don't know is that someone set up a rogue access point in the shop. They named their fake wifi "WiFi Coffee Shop Free" while the real WiFi was "Free Coffee Shop WiFi." They can read and even manipulate the packets you send via the network before they relay it to the real network. Or they can send you to a different website than the one you intended to go to, possibly injecting malware or stealing info.
 
 ## Popcorn Hack
 Go to [this website](https://www.security.org/how-secure-is-my-password/) and make a secure password. <br>
